@@ -20,5 +20,5 @@ jobs:
             az storage blob upload-batch --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT }} \
             --account-key ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY}} \
             --destination '$web' \
-            --source './' \
+            --source '.' \
             --overwrite
