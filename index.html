@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tayyab Khugyani - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bg: #000000;
+      --text: #ffd700;
+      --button-bg: #333;
+      --button-hover: #555;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ffecb3;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(255, 215, 0, 0.1);
+      margin-top: 2rem;
+    }
+
+    h2, h3 {
+      color: var(--text);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    button {
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+      background-color: var(--button-bg);
+      color: var(--text);
+      border: 1px solid var(--text);
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button i {
+      margin-right: 8px;
+    }
+
+    button:hover {
+      background-color: var(--button-hover);
+    }
+
+    .section {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .section p {
+      font-size: 1rem;
+      color: #e2c96d;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      .btn-group {
+        flex-direction: column;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tayyab Khugyani</h1>
+    <p>Graduate Mechanical Engineer | Problem Solver | Tech Enthusiast</p>
+  </header>
+
+  <main>
+    <h2>Welcome to My Website!</h2>
+    <p style="text-align: center;">Explore my projects, résumé and GitHub profile. Let’s build something great together.</p>
+
+    <div class="btn-group">
+      <button onclick="window.open('https://docs.google.com/document/d/1xYjunH1qLorirEmmV1G6RGq-4hmXT2k_0CK2R96YKqs/edit?usp=sharing', '_blank')">
+        <i class="fas fa-file-alt"></i> CV
+      </button>
+      <button onclick="window.open('https://github.com/tayyab-k-15', '_blank')">
+        <i class="fab fa-github"></i> GitHub
+      </button>
+      <button onclick="window.open('https://www.linkedin.com/in/tayyab-khugyani-552b85251/', '_blank')">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </button>
+    </div>
+
+    <div class="section">
+      <h3>About Me</h3>
+      <p>
+        I am a passionate and detail-oriented graduate mechanical engineer with a strong foundation in computer science and a knack for solving complex problems. My experience spans across web development, data analysis and automation and design engineering. I thrive in collaborative environments and enjoy learning new technologies that improve productivity and innovation.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Tayyab Khugyani. All rights reserved.
+  </footer>
+
+</body>
+</html>
